@@ -19,7 +19,7 @@ Thumbs.db
 
 # Ignore build artifacts and output
 /bin
-llmenv/
+pdfllmenv/
 
 # Ignore third-party libraries and dependencies
 /node_modules
