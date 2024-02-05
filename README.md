@@ -1,2 +1,2 @@
 # LLM-based helper for agricultural troubleshooting (in Japanese)
-Developing a chatbot helper that retrieves information extracted from PDFs to answer questions about diseases/pests and suitable cultivars.
+Developing a chatbot helper that retrieves information extracted from PDFs to answer questions about diseases/pests and suitable cultivars. The current implementation embeds information from curated PDFs using a Japanese language specific embedding model ([cl-nagoya/sup-simcse-ja-base](https://huggingface.co/cl-nagoya/sup-simcse-ja-base)) and uses RAG to display relevant documentation or generated responses to user queries.
